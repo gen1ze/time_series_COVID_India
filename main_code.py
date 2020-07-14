@@ -65,6 +65,4 @@ ax.xaxis.set_major_formatter(DateFormatter('%Y-%m-%d'))
 plt.gcf().autofmt_xdate()
 plt.show()
 
-print('active cases',daily_confirmed[-1])
-
 
